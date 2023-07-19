@@ -768,6 +768,9 @@ section {
   padding: 0;
 }
 
+.portfolio-wrap h5 {
+  text-align: center;
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
