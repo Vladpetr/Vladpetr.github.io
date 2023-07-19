@@ -772,6 +772,47 @@ section {
   text-align: center;
 }
 
+.challenge-phrase {
+  color: #0c0c0c;
+  text-align: center;
+  background-color: #ff4d4d;
+  line-height: 1.6;
+  padding: 10px;
+  border-radius: 8px;
+  animation: blink 12s infinite; /* Added animation */
+}
+
+@keyframes blink {
+  0%, 100% {
+    background-color: #ffcccb;
+    box-shadow: 0 0 20px #ffcccb;
+  }
+  12.5%, 87.5% {
+      background-color: #ffdfb9;
+      box-shadow: 0 0 20px #ffdfb9;
+  }
+  25%, 75% {
+      background-color: #fff5b7; /* Additional soft color */
+      box-shadow: 0 0 20px #fff5b7;
+  }
+  37.5%, 62.5% {
+      background-color: #d9ffb3; /* Additional soft color */
+      box-shadow: 0 0 20px #d9ffb3;
+  }
+  50% {
+      background-color: #b2fefa; /* Additional soft color */
+      box-shadow: 0 0 20px #b2fefa;
+  }
+  62.5%, 37.5% {
+      background-color: #d9d2ff; /* Additional soft color */
+      box-shadow: 0 0 20px #d9d2ff;
+  }
+  75%, 25% {
+      background-color: #ffc6ff; /* Additional soft color */
+      box-shadow: 0 0 20px #ffc6ff;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
