@@ -270,7 +270,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #07d757;
 }
 
 @media (min-width: 1024px) {
@@ -339,6 +339,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #173b6c;
+  text-align: center;
 }
 
 .about .content ul {
@@ -365,6 +366,18 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+.quote-container{
+  display: inline-block; /* Set the display to inline-block to fit the container to the phrase length */
+  border-left: 4px double #e67e22; 
+  background-color: #f9ebca; 
+  padding: 20px; 
+  margin: 0px 0px 0px 0px; 
+  font-style: italic; 
+  font-family: 'Georgia', serif; 
+  font-size: 18px; 
+  max-width: 100%; 
 }
 
 /*--------------------------------------------------------------
