@@ -64,7 +64,7 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Vladyslav Petrenko</h1>
-      <p>I'm a <span class="typed" data-typed-items="Software Engineer, Data Scientist, Machine Learning Engineer, Data Engineer"></span></p>
+      <p>I'm a <span class="typed" data-typed-items="Software Engineer, Data Scientist, Machine Learning Engineer"></span></p>
     </div>
   </section>
 
@@ -92,19 +92,27 @@
               <li data-target="#myCarousel" data-slide-to="1"></li>
               <li data-target="#myCarousel" data-slide-to="2"></li>
               <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="assets/img/ny.jpg" class="d-block w-100" alt="first">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/ba.jpg" class="d-block w-100" alt="second">
+                <img src="assets/img/pr.jpg" class="d-block w-100" alt="second">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/br.jpg" class="d-block w-100" alt="third">
+                <img src="assets/img/lv.jpg" class="d-block w-100" alt="third">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/az.jpg" class="d-block w-100" alt="fourth">
+                <img src="assets/img/ba.jpg" class="d-block w-100" alt="fourth">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/br.jpg" class="d-block w-100" alt="fifth">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/img/az.jpg" class="d-block w-100" alt="sixth">
               </div>
             </div>
             <!-- Navigation arrows -->
@@ -257,12 +265,13 @@
               <h4>Other Skills</h4>
               <ul>
                 <li>Docker</li>
-                <li>Terraform</li>
+                <li>Airflow</li>
                 <li>Linux</li>
                 <li>Firebase</li>
                 <li>Jira</li>
                 <li>Git</li>
                 <li>GitHub Actions</li>
+                <li>Databricks</li>
                 <li>SageMath</li>
                 <li>APIs</li>
               </ul>
@@ -314,13 +323,27 @@
 
         <div class="row">
           <div class="resume-item">
+            <h4>Customer Operations Engineer</h4>
+            <h5>Foursquare</h5>
+            <h6><em>Chicago, IL</em></h6>
+            <h5 class="years">October 2023 - Present</h5>
+            <ul>
+              <li>Leveraged Places API to generate personalized real estate suggestions with GPT-4, minimizing reliance on agents.</li>
+              <li>Developed Feedback API endpoints, achieving a 15% decrease in Data Support requests by integrating enterprise customer feedback for venue accuracy enhancements.</li>
+              <li>Spearheaded strategic consultations with clients, guiding them on optimal product implementation aligned with their unique use cases.</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
             <h4>Software Engineer</h4>
             <h5>Pigeon</h5>
             <h6><em>San Francisco, CA</em></h6>
-            <h5 class="years">September 2022 - Present</h5>
+            <h5 class="years">September 2022 - October 2023</h5>
             <ul>
-              <li>Designed RESTful APIs using Django, resulting in a 20% increase in overall system functionality.</li>
+              <li>Implemented an image-to-text menu scanner utilizing OpenAI and YOLO object detection, reducing average initial item setup time by 25 minutes</li>
+              <li>Designed friend and venue check-in APIs using Django REST, resulting in a 70% increase in user engagement.</li>
               <li>Produced a responsive Flutter UI, facilitating seamless registration functionality with Firebase for 5k active users.</li>
+              <li>Integrated Square APIs into application through OAuth, streamlining data entry for commercial customers.</li>
               <li>Established CI/CD pipeline utilizing GitHub Actions, enhancing automation of testing and deployment for containerized back-end into AWS ECS cluster.</li>
               <li>Automated the import of spatial GeoJSON data into PostGIS; enabled visual geodata adjustments on the admin page.</li>
             </ul>
@@ -346,7 +369,7 @@
             <ul>
               <li>Optimized the existing ETL pipeline to enhance investment performance attribution; decreased daily data processing time by 2 hours, saving the business $100k annually.</li>
               <li>Increased code coverage by 10% by designing additional unit tests for trading scenarios.</li>
-              <li>Automated data migration and mapping for an external customer with MS SQL and Python open-source libraries saving 3+ months of semi-automated work.</li>
+              <li>Automated data migration and mapping for an external customer with MS SQL and Python open-source libraries, saving 3+ months of semi-automated work.</li>
               <li>Championed end-to-end product development processes comprising user interviews and business requirement documents (BRDs) through presentation and collaboration with the Senior team and stakeholders.</li>
             </ul>
           </div>
@@ -439,6 +462,18 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-swe">
+            <div class="portfolio-wrap">
+              <h6>Grand Connect</h6>
+              <img src="assets/img/portfolio/grand-connect.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/grand-connect.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Trust Hub for mission-driven and socially responsible investors and entrepreneurs."><i class="bx bx-plus"></i></a>
+                <a href="https://grandconnect.app/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-ds">
             <div class="portfolio-wrap">
